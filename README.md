@@ -143,6 +143,28 @@ Votes are represented as aggregated counts by score level:
 - **Weakening Cases**: 1,797 debates (41.5%) where target arguments were weakened
 - **File Format**: JSON with consistent schema
 
+### Explanation size with respect to the Number of Branches
+
+We define the size of a returned explanation w.r.t. the number of branches.  
+- For **constructive explanations**: the number of returned pro-branches and con-weakening sub-branches for the strengthening case, and the number of returned con-branches and pro-weakening sub-branches for the weakening case.  
+- For **destructive explanations**: the number of returned pro-branches for the strengthening case and returned con-branches for the weakening case.  
+
+The percentage of branches returned by an explanation is computed relative to the total number of branches of the same categories in the corresponding case.  
+
+| Strategy      | Heuristic           | Mean   | Median | Std Dev |
+|---------------|-------------------|-------|--------|---------|
+| Constructive  | H_{s → w}          | 54.24 | 50     | 30.1    |
+| Constructive  | H_{w → s}          | 61.31 | 60     | 29.54   |
+| Constructive  | H_{s → l}          | 59.6  | 57.14  | 30.2    |
+| Destructive   | H_{s → w}          | 67.99 | 66.67  | 28.21   |
+| Destructive   | H_{w → s}          | 78.11 | 87.5   | 25.6    |
+| Destructive   | H_{s → l}          | 73.95 | 75     | 27.12   |
+
+Table shows the mean, median, and standard deviation values computed for this percentage across the 4326 debates' explanations for each explanation-heuristic combination.
+
+While generating constructive explanations following `H_{s → l}` gives the shortest explanations w.r.t. the number of arguments, using `H_{s → w}` gives the shortest explanations w.r.t. the number of branches, highlighting a trade-off between these two objectives.
+
+We also observe higher standard deviation values for constructive explanations, leading to more variability in the percentage of returned branches. This may be explained by the variability in graph topology. For example, in the weakening case, every unweakened pro-branch **can** induce several pro-weakening sub-branches. The more a debate has unweakened pro-branches, the more likely it is to have pro-weakening sub-branches, which increases the total number of possible (sub-)branches. Unless a heuristic `H` returns all the pro-weakening sub-branches, a larger number of unweakened pro-branches will lower the percentage of returned branches, whereas debates with only a few unweakened pro-branches can more easily reach high percentages.
 
 ## Requirements
 
