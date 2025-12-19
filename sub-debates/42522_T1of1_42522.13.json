@@ -1,0 +1,105 @@
+{
+  "nodes": {
+    "42522.26": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.75
+    },
+    "42522.13": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 0.9272997032640949
+    },
+    "42522.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "42522.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "42522.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.32
+    },
+    "42522.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "42522.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "42522.24": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "42522.30": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "42522.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "42522.32": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "42522.15": {
+      "successor_id": "42522.13",
+      "relation": 1.0
+    },
+    "42522.7": {
+      "successor_id": "42522.13",
+      "relation": -1.0
+    },
+    "42522.11": {
+      "successor_id": "42522.13",
+      "relation": -1.0
+    },
+    "42522.5": {
+      "successor_id": "42522.13",
+      "relation": 1.0
+    },
+    "42522.3": {
+      "successor_id": "42522.13",
+      "relation": 1.0
+    },
+    "42522.9": {
+      "successor_id": "42522.13",
+      "relation": -1.0
+    },
+    "42522.32": {
+      "successor_id": "42522.15",
+      "relation": 1.0
+    },
+    "42522.30": {
+      "successor_id": "42522.7",
+      "relation": 1.0
+    },
+    "42522.26": {
+      "successor_id": "42522.3",
+      "relation": -1.0
+    },
+    "42522.24": {
+      "successor_id": "42522.9",
+      "relation": 1.0
+    }
+  }
+}

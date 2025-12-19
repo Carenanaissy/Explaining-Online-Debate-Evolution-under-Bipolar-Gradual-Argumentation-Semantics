@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "58913.47": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.89": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.95": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.49": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.91": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "58913.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "58913.55": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.87": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58913.93": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "58913.21": {
+      "successor_id": "58913.7",
+      "relation": 1.0
+    },
+    "58913.23": {
+      "successor_id": "58913.7",
+      "relation": -1.0
+    },
+    "58913.47": {
+      "successor_id": "58913.7",
+      "relation": 1.0
+    },
+    "58913.49": {
+      "successor_id": "58913.7",
+      "relation": 1.0
+    },
+    "58913.55": {
+      "successor_id": "58913.7",
+      "relation": -1.0
+    },
+    "58913.87": {
+      "successor_id": "58913.23",
+      "relation": -1.0
+    },
+    "58913.89": {
+      "successor_id": "58913.87",
+      "relation": 1.0
+    },
+    "58913.91": {
+      "successor_id": "58913.87",
+      "relation": -1.0
+    },
+    "58913.93": {
+      "successor_id": "58913.91",
+      "relation": 1.0
+    },
+    "58913.95": {
+      "successor_id": "58913.91",
+      "relation": -1.0
+    }
+  }
+}

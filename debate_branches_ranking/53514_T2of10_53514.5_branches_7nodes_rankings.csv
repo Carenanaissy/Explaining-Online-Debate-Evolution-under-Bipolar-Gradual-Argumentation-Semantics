@@ -1,0 +1,16 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+53514,53514.5,weakening,weak to strong,pro-branches,['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]",['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]"
+53514,53514.5,weakening,strong to weak,pro-branches,['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]",['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]"
+53514,53514.5,weakening,small to large,pro-branches,['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]",['Pb1'],"[['53514.11', '53514.108', '53514.86', '53514.19']]"
+53514,53514.5,weakening,weak to strong,con-branches,"['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]","['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,strong to weak,con-branches,"['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]","['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,small to large,con-branches,"['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]","['Cb1', 'Cb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,weak to strong,unweakened pro-branches,['UnWPb1'],"[['53514.11', '53514.86']]",['UnWPb1'],"[['53514.11', '53514.86']]"
+53514,53514.5,weakening,strong to weak,unweakened pro-branches,['UnWPb1'],"[['53514.11', '53514.86']]",['UnWPb1'],"[['53514.11', '53514.86']]"
+53514,53514.5,weakening,small to large,unweakened pro-branches,['UnWPb1'],"[['53514.11', '53514.86']]",['UnWPb1'],"[['53514.11', '53514.86']]"
+53514,53514.5,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]","['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]","['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]","['UnWCb1', 'UnWCb2']","[['53514.7'], ['53514.9']]"
+53514,53514.5,weakening,weak to strong,pro-weakening branches,['PWb1'],[['53514.108']],['PWb1'],[['53514.108']]
+53514,53514.5,weakening,strong to weak,pro-weakening branches,['PWb1'],[['53514.108']],['PWb1'],[['53514.108']]
+53514,53514.5,weakening,small to large,pro-weakening branches,['PWb1'],[['53514.108']],['PWb1'],[['53514.108']]

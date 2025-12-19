@@ -1,0 +1,10 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+64803,64803.62,weakening,weak to strong,con-branches,['Cb1'],"[['64803.66', '64803.68']]",['Cb1'],"[['64803.66', '64803.68']]"
+64803,64803.62,weakening,strong to weak,con-branches,['Cb1'],"[['64803.66', '64803.68']]",['Cb1'],"[['64803.66', '64803.68']]"
+64803,64803.62,weakening,small to large,con-branches,['Cb1'],"[['64803.66', '64803.68']]",['Cb1'],"[['64803.66', '64803.68']]"
+64803,64803.62,weakening,weak to strong,unweakened con-branches,['UnWCb1'],[['64803.66']],['UnWCb1'],[['64803.66']]
+64803,64803.62,weakening,strong to weak,unweakened con-branches,['UnWCb1'],[['64803.66']],['UnWCb1'],[['64803.66']]
+64803,64803.62,weakening,small to large,unweakened con-branches,['UnWCb1'],[['64803.66']],['UnWCb1'],[['64803.66']]
+64803,64803.62,weakening,weak to strong,con-weakening branches,['CWb1'],[['64803.68']],['CWb1'],[['64803.68']]
+64803,64803.62,weakening,strong to weak,con-weakening branches,['CWb1'],[['64803.68']],['CWb1'],[['64803.68']]
+64803,64803.62,weakening,small to large,con-weakening branches,['CWb1'],[['64803.68']],['CWb1'],[['64803.68']]

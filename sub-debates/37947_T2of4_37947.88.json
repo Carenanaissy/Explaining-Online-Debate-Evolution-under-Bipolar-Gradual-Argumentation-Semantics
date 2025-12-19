@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "37947.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "37947.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "37947.88": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.8338717650981249
+    },
+    "37947.29": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "37947.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "37947.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.36764705882352944
+    },
+    "37947.84": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "37947.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "37947.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    },
+    "37947.119": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "37947.57": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "37947.27": {
+      "successor_id": "37947.88",
+      "relation": 1.0
+    },
+    "37947.25": {
+      "successor_id": "37947.88",
+      "relation": 1.0
+    },
+    "37947.21": {
+      "successor_id": "37947.88",
+      "relation": 1.0
+    },
+    "37947.11": {
+      "successor_id": "37947.88",
+      "relation": 1.0
+    },
+    "37947.57": {
+      "successor_id": "37947.27",
+      "relation": -1.0
+    },
+    "37947.29": {
+      "successor_id": "37947.25",
+      "relation": -1.0
+    },
+    "37947.23": {
+      "successor_id": "37947.21",
+      "relation": -1.0
+    },
+    "37947.84": {
+      "successor_id": "37947.11",
+      "relation": -1.0
+    },
+    "37947.119": {
+      "successor_id": "37947.11",
+      "relation": -1.0
+    },
+    "37947.31": {
+      "successor_id": "37947.29",
+      "relation": 1.0
+    }
+  }
+}

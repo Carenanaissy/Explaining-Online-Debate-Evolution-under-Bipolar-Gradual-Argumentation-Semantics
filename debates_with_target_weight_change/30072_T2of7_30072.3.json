@@ -1,0 +1,199 @@
+{
+  "nodes": {
+    "30072.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.264": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.2262443438914027
+    },
+    "30072.466": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.269": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "30072.4": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "30072.472": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "30072.265": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.250": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "30072.247": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.460": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.270": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.303": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.468": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.474": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.8": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "30072.476": {
+      "votes": {
+        "0": 1
+      },
+      "initial_weight": 0.0,
+      "final_weight": 0.0
+    },
+    "30072.12": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.470": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.266": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30072.3": {
+      "votes": {
+        "1": 2,
+        "3": 1,
+        "2": 1
+      },
+      "initial_weight": 0.4375,
+      "final_weight": 0.6421073204017382
+    },
+    "30072.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    }
+  },
+  "edges": {
+    "30072.4": {
+      "successor_id": "30072.3",
+      "relation": 1.0
+    },
+    "30072.5": {
+      "successor_id": "30072.3",
+      "relation": -1.0
+    },
+    "30072.250": {
+      "successor_id": "30072.3",
+      "relation": 1.0
+    },
+    "30072.264": {
+      "successor_id": "30072.3",
+      "relation": -1.0
+    },
+    "30072.266": {
+      "successor_id": "30072.264",
+      "relation": -1.0
+    },
+    "30072.476": {
+      "successor_id": "30072.3",
+      "relation": 1.0
+    },
+    "30072.8": {
+      "successor_id": "30072.4",
+      "relation": 1.0
+    },
+    "30072.12": {
+      "successor_id": "30072.5",
+      "relation": -1.0
+    },
+    "30072.247": {
+      "successor_id": "30072.5",
+      "relation": -1.0
+    },
+    "30072.303": {
+      "successor_id": "30072.5",
+      "relation": 1.0
+    },
+    "30072.474": {
+      "successor_id": "30072.5",
+      "relation": -1.0
+    },
+    "30072.466": {
+      "successor_id": "30072.250",
+      "relation": 1.0
+    },
+    "30072.468": {
+      "successor_id": "30072.250",
+      "relation": 1.0
+    },
+    "30072.470": {
+      "successor_id": "30072.250",
+      "relation": 1.0
+    },
+    "30072.472": {
+      "successor_id": "30072.250",
+      "relation": -1.0
+    },
+    "30072.265": {
+      "successor_id": "30072.264",
+      "relation": -1.0
+    },
+    "30072.269": {
+      "successor_id": "30072.264",
+      "relation": -1.0
+    },
+    "30072.460": {
+      "successor_id": "30072.264",
+      "relation": 1.0
+    },
+    "30072.11": {
+      "successor_id": "30072.8",
+      "relation": 1.0
+    },
+    "30072.270": {
+      "successor_id": "30072.269",
+      "relation": 1.0
+    }
+  }
+}

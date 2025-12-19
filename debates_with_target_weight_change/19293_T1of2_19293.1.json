@@ -1,0 +1,213 @@
+{
+  "nodes": {
+    "19293.22": {
+      "votes": {
+        "1": 1,
+        "0": 1
+      },
+      "initial_weight": 0.125,
+      "final_weight": 0.125
+    },
+    "19293.29": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "19293.24": {
+      "votes": {
+        "1": 1,
+        "4": 1
+      },
+      "initial_weight": 0.625,
+      "final_weight": 0.625
+    },
+    "19293.21": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.25
+    },
+    "19293.23": {
+      "votes": {
+        "4": 1,
+        "1": 1
+      },
+      "initial_weight": 0.625,
+      "final_weight": 0.5
+    },
+    "19293.26": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "19293.13": {
+      "votes": {
+        "2": 1,
+        "1": 1
+      },
+      "initial_weight": 0.375,
+      "final_weight": 0.375
+    },
+    "19293.3": {
+      "votes": {
+        "1": 1,
+        "2": 1
+      },
+      "initial_weight": 0.375,
+      "final_weight": 0.550561797752809
+    },
+    "19293.1": {
+      "votes": {
+        "4": 2,
+        "1": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.906123150303431
+    },
+    "19293.14": {
+      "votes": {
+        "3": 1,
+        "1": 1,
+        "0": 1
+      },
+      "initial_weight": 0.3333333333333333,
+      "final_weight": 0.13008130081300812
+    },
+    "19293.17": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "19293.6": {
+      "votes": {
+        "1": 2
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.29411764705882354
+    },
+    "19293.25": {
+      "votes": {
+        "3": 1,
+        "1": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "19293.19": {
+      "votes": {
+        "3": 1,
+        "4": 1,
+        "2": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.75
+    },
+    "19293.28": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.8
+    },
+    "19293.4": {
+      "votes": {
+        "2": 1,
+        "0": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.25
+    },
+    "19293.65": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "19293.5": {
+      "votes": {
+        "2": 1,
+        "1": 1
+      },
+      "initial_weight": 0.375,
+      "final_weight": 0.375
+    }
+  },
+  "edges": {
+    "19293.3": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.4": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.5": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.6": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.13": {
+      "successor_id": "19293.1",
+      "relation": -1.0
+    },
+    "19293.14": {
+      "successor_id": "19293.1",
+      "relation": -1.0
+    },
+    "19293.24": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.25": {
+      "successor_id": "19293.1",
+      "relation": 1.0
+    },
+    "19293.28": {
+      "successor_id": "19293.1",
+      "relation": -1.0
+    },
+    "19293.17": {
+      "successor_id": "19293.3",
+      "relation": 1.0
+    },
+    "19293.22": {
+      "successor_id": "19293.3",
+      "relation": 1.0
+    },
+    "19293.21": {
+      "successor_id": "19293.6",
+      "relation": 1.0
+    },
+    "19293.19": {
+      "successor_id": "19293.14",
+      "relation": -1.0
+    },
+    "19293.23": {
+      "successor_id": "19293.14",
+      "relation": 1.0
+    },
+    "19293.65": {
+      "successor_id": "19293.14",
+      "relation": -1.0
+    },
+    "19293.29": {
+      "successor_id": "19293.28",
+      "relation": 1.0
+    },
+    "19293.26": {
+      "successor_id": "19293.23",
+      "relation": -1.0
+    }
+  }
+}

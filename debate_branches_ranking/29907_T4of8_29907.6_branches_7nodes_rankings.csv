@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+29907,29907.6,weakening,weak to strong,pro-branches,"['Pb1', 'Pb2']","[['29907.20'], ['29907.36']]","['Pb1', 'Pb2']","[['29907.20'], ['29907.36']]"
+29907,29907.6,weakening,strong to weak,pro-branches,"['Pb1', 'Pb2']","[['29907.20'], ['29907.36']]","['Pb2', 'Pb1']","[['29907.36'], ['29907.20']]"
+29907,29907.6,weakening,small to large,pro-branches,"['Pb1', 'Pb2']","[['29907.20'], ['29907.36']]","['Pb1', 'Pb2']","[['29907.20'], ['29907.36']]"
+29907,29907.6,weakening,weak to strong,con-branches,['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"
+29907,29907.6,weakening,strong to weak,con-branches,['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"
+29907,29907.6,weakening,small to large,con-branches,['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['Cb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"
+29907,29907.6,weakening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['29907.20'], ['29907.36']]","['UnWPb1', 'UnWPb2']","[['29907.20'], ['29907.36']]"
+29907,29907.6,weakening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['29907.20'], ['29907.36']]","['UnWPb2', 'UnWPb1']","[['29907.36'], ['29907.20']]"
+29907,29907.6,weakening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['29907.20'], ['29907.36']]","['UnWPb1', 'UnWPb2']","[['29907.20'], ['29907.36']]"
+29907,29907.6,weakening,weak to strong,unweakened con-branches,['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"
+29907,29907.6,weakening,strong to weak,unweakened con-branches,['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"
+29907,29907.6,weakening,small to large,unweakened con-branches,['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]",['UnWCb1'],"[['29907.21', '29907.24', '29907.23', '29907.22']]"

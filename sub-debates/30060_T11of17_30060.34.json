@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "30060.67": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "30060.34": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5689655172413793
+    },
+    "30060.41": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    }
+  },
+  "edges": {
+    "30060.41": {
+      "successor_id": "30060.34",
+      "relation": 1.0
+    },
+    "30060.67": {
+      "successor_id": "30060.41",
+      "relation": -1.0
+    }
+  }
+}

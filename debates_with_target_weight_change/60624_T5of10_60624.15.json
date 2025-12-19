@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "60624.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "60624.118": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "60624.180": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "60624.118": {
+      "successor_id": "60624.15",
+      "relation": 1.0
+    },
+    "60624.180": {
+      "successor_id": "60624.15",
+      "relation": 1.0
+    }
+  }
+}

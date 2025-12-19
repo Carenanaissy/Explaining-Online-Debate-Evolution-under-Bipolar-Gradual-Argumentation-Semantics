@@ -1,0 +1,16 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+1257,1257.974,strengthening,weak to strong,pro-branches,['Pb1'],[['1257.1026']],['Pb1'],[['1257.1026']]
+1257,1257.974,strengthening,strong to weak,pro-branches,['Pb1'],[['1257.1026']],['Pb1'],[['1257.1026']]
+1257,1257.974,strengthening,small to large,pro-branches,['Pb1'],[['1257.1026']],['Pb1'],[['1257.1026']]
+1257,1257.974,strengthening,weak to strong,con-branches,"['Cb1', 'Cb2']","[['1257.1030', '1257.1992'], ['1257.1979']]","['Cb1', 'Cb2']","[['1257.1030', '1257.1992'], ['1257.1979']]"
+1257,1257.974,strengthening,strong to weak,con-branches,"['Cb1', 'Cb2']","[['1257.1030', '1257.1992'], ['1257.1979']]","['Cb2', 'Cb1']","[['1257.1979'], ['1257.1030', '1257.1992']]"
+1257,1257.974,strengthening,small to large,con-branches,"['Cb1', 'Cb2']","[['1257.1030', '1257.1992'], ['1257.1979']]","['Cb2', 'Cb1']","[['1257.1979'], ['1257.1030', '1257.1992']]"
+1257,1257.974,strengthening,weak to strong,unweakened pro-branches,['UnWPb1'],[['1257.1026']],['UnWPb1'],[['1257.1026']]
+1257,1257.974,strengthening,strong to weak,unweakened pro-branches,['UnWPb1'],[['1257.1026']],['UnWPb1'],[['1257.1026']]
+1257,1257.974,strengthening,small to large,unweakened pro-branches,['UnWPb1'],[['1257.1026']],['UnWPb1'],[['1257.1026']]
+1257,1257.974,strengthening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['1257.1030'], ['1257.1979']]","['UnWCb1', 'UnWCb2']","[['1257.1030'], ['1257.1979']]"
+1257,1257.974,strengthening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['1257.1030'], ['1257.1979']]","['UnWCb2', 'UnWCb1']","[['1257.1979'], ['1257.1030']]"
+1257,1257.974,strengthening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['1257.1030'], ['1257.1979']]","['UnWCb1', 'UnWCb2']","[['1257.1030'], ['1257.1979']]"
+1257,1257.974,strengthening,weak to strong,con-weakening branches,['CWb1'],[['1257.1992']],['CWb1'],[['1257.1992']]
+1257,1257.974,strengthening,strong to weak,con-weakening branches,['CWb1'],[['1257.1992']],['CWb1'],[['1257.1992']]
+1257,1257.974,strengthening,small to large,con-weakening branches,['CWb1'],[['1257.1992']],['CWb1'],[['1257.1992']]

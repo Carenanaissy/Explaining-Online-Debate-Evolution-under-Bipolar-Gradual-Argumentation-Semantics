@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "48142.91": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.333": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.410": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.430": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.25": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.9355670103092784
+    },
+    "48142.103": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.408": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.39": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "48142.346": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.404": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "48142.406": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "48142.39": {
+      "successor_id": "48142.25",
+      "relation": -1.0
+    },
+    "48142.103": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.333": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.346": {
+      "successor_id": "48142.25",
+      "relation": -1.0
+    },
+    "48142.404": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.406": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.408": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.410": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.430": {
+      "successor_id": "48142.25",
+      "relation": 1.0
+    },
+    "48142.91": {
+      "successor_id": "48142.39",
+      "relation": -1.0
+    }
+  }
+}

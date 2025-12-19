@@ -1,0 +1,127 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        
+            <script src="lib/bindings/utils.js"></script>
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/dist/vis-network.min.css" integrity="sha512-WgxfT5LWjfszlPHXRmBWHkV2eceiWTOBvrKCNbdgDYTHrT2AeLCGbF4sZlZw3UMN3WtL0tGUoIAKsu8mllg/XA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/vis-network/9.1.2/dist/vis-network.min.js" integrity="sha512-LnvoEWDFrqGHlHmDD2101OrLcbsfkrzoSpvtSQtxK3RMnRV0eOkhhBN2dXHKRrUU8p2DGRTk35n4O8nWSVe1mQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+            
+        
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+        <link
+          href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css"
+          rel="stylesheet"
+          integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6"
+          crossorigin="anonymous"
+        />
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+          crossorigin="anonymous"
+        ></script>
+
+
+        <center>
+          <h1></h1>
+        </center>
+        <style type="text/css">
+
+             #mynetwork {
+                 width: 100%;
+                 height: 750px;
+                 background-color: #ffffff;
+                 border: 1px solid lightgray;
+                 position: relative;
+                 float: left;
+             }
+
+             
+
+             
+
+             
+        </style>
+    </head>
+
+
+    <body>
+        <div class="card" style="width: 100%">
+            
+            
+            <div id="mynetwork" class="card-body"></div>
+        </div>
+
+        
+        
+
+        <script type="text/javascript">
+
+              // initialize global variables.
+              var edges;
+              var nodes;
+              var allNodes;
+              var allEdges;
+              var nodeColors;
+              var originalNodes;
+              var network;
+              var container;
+              var options, data;
+              var filter = {
+                  item : '',
+                  property : '',
+                  value : []
+              };
+
+              
+
+              
+
+              // This method is responsible for drawing the graph, returns the drawn network
+              function drawGraph() {
+                  var container = document.getElementById('mynetwork');
+
+                  
+
+                  // parsing and collecting nodes and edges from the python
+                  nodes = new vis.DataSet([{"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.0", "label": "30667.0\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.0 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.3", "label": "30667.3\nw=0.83", "shape": "circle", "size": 35.0, "title": "Node: 30667.3 | Weight: 0.833 | Votes: {\u00273\u0027: 2, \u00274\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.5", "label": "30667.5\nw=1.00", "shape": "circle", "size": 40.0, "title": "Node: 30667.5 | Weight: 1.000 | Votes: {\u00274\u0027: 2}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.7", "label": "30667.7\nw=1.00", "shape": "circle", "size": 40.0, "title": "Node: 30667.7 | Weight: 1.000 | Votes: {\u00274\u0027: 2}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.9", "label": "30667.9\nw=0.25", "shape": "circle", "size": 17.5, "title": "Node: 30667.9 | Weight: 0.250 | Votes: {\u00270\u0027: 1, \u00272\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.11", "label": "30667.11\nw=0.75", "shape": "circle", "size": 32.5, "title": "Node: 30667.11 | Weight: 0.750 | Votes: {\u00273\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.17", "label": "30667.17\nw=0.25", "shape": "circle", "size": 17.5, "title": "Node: 30667.17 | Weight: 0.250 | Votes: {\u00271\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.35", "label": "30667.35\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.35 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.50", "label": "30667.50\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.50 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.33", "label": "30667.33\nw=1.00", "shape": "circle", "size": 40.0, "title": "Node: 30667.33 | Weight: 1.000 | Votes: {\u00274\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.37", "label": "30667.37\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.37 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.89", "label": "30667.89\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.89 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.21", "label": "30667.21\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.21 | Weight: 0.500 | Votes: {\u00272\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.13", "label": "30667.13\nw=0.75", "shape": "circle", "size": 32.5, "title": "Node: 30667.13 | Weight: 0.750 | Votes: {\u00273\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.69", "label": "30667.69\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.69 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.23", "label": "30667.23\nw=0.75", "shape": "circle", "size": 32.5, "title": "Node: 30667.23 | Weight: 0.750 | Votes: {\u00273\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.19", "label": "30667.19\nw=0.88", "shape": "circle", "size": 36.25, "title": "Node: 30667.19 | Weight: 0.875 | Votes: {\u00273\u0027: 1, \u00274\u0027: 1}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.75", "label": "30667.75\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.75 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.79", "label": "30667.79\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.79 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.83", "label": "30667.83\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.83 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.104", "label": "30667.104\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.104 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.39", "label": "30667.39\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.39 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.91", "label": "30667.91\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.91 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.93", "label": "30667.93\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.93 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.57", "label": "30667.57\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.57 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.61", "label": "30667.61\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.61 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.29", "label": "30667.29\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.29 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.71", "label": "30667.71\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.71 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.25", "label": "30667.25\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.25 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.27", "label": "30667.27\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.27 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.77", "label": "30667.77\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.77 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.96", "label": "30667.96\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.96 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.81", "label": "30667.81\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.81 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.41", "label": "30667.41\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.41 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.59", "label": "30667.59\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.59 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.63", "label": "30667.63\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.63 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.73", "label": "30667.73\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.73 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.43", "label": "30667.43\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.43 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.100", "label": "30667.100\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.100 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.65", "label": "30667.65\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.65 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.67", "label": "30667.67\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.67 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.45", "label": "30667.45\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.45 | Weight: 0.500 | Votes: {}"}, {"color": {"background": "#ffffff", "border": "#000000", "highlight": {"background": "#ffffff", "border": "#000000"}, "hover": {"background": "#ffffff", "border": "#000000"}}, "font": {"multi": "html"}, "id": "30667.102", "label": "30667.102\nw=0.50", "shape": "circle", "size": 25.0, "title": "Node: 30667.102 | Weight: 0.500 | Votes: {}"}]);
+                  edges = new vis.DataSet([{"arrows": "to", "color": "#2ca02c", "from": "30667.5", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.7", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.9", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.11", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.17", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.35", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.50", "to": "30667.3", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.33", "to": "30667.5", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.37", "to": "30667.5", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.89", "to": "30667.5", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.21", "to": "30667.7", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.13", "to": "30667.9", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.69", "to": "30667.9", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.23", "to": "30667.11", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.19", "to": "30667.17", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.75", "to": "30667.17", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.79", "to": "30667.17", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.83", "to": "30667.35", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.104", "to": "30667.50", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.39", "to": "30667.37", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.91", "to": "30667.89", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.93", "to": "30667.89", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.57", "to": "30667.21", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.61", "to": "30667.21", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.29", "to": "30667.13", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.71", "to": "30667.29", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.25", "to": "30667.23", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.27", "to": "30667.23", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.77", "to": "30667.75", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.96", "to": "30667.75", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.81", "to": "30667.79", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.41", "to": "30667.39", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.59", "to": "30667.57", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.63", "to": "30667.61", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.73", "to": "30667.71", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.43", "to": "30667.41", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.100", "to": "30667.59", "width": 2}, {"arrows": "to", "color": "#2ca02c", "from": "30667.65", "to": "30667.63", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.67", "to": "30667.63", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.45", "to": "30667.43", "width": 2}, {"arrows": "to", "color": "#d62728", "from": "30667.102", "to": "30667.65", "width": 2}]);
+
+                  nodeColors = {};
+                  allNodes = nodes.get({ returnType: "Object" });
+                  for (nodeId in allNodes) {
+                    nodeColors[nodeId] = allNodes[nodeId].color;
+                  }
+                  allEdges = edges.get({ returnType: "Object" });
+                  // adding nodes and edges to the graph
+                  data = {nodes: nodes, edges: edges};
+
+                  var options = {"layout": {"hierarchical": {"enabled": true, "direction": "DU", "sortMethod": "directed"}}, "physics": {"enabled": false}, "edges": {"smooth": false}, "interaction": {"navigationButtons": true}};
+
+                  
+
+
+                  
+
+                  network = new vis.Network(container, data, options);
+
+                  
+
+                  
+
+                  
+
+
+                  
+
+                  return network;
+
+              }
+              drawGraph();
+        </script>
+    </body>
+</html>

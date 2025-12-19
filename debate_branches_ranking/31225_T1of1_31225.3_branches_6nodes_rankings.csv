@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+31225,31225.3,weakening,weak to strong,pro-branches,"['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]","['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,strong to weak,pro-branches,"['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]","['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,small to large,pro-branches,"['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]","['Pb1', 'Pb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,weak to strong,con-branches,"['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]"
+31225,31225.3,weakening,strong to weak,con-branches,"['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]"
+31225,31225.3,weakening,small to large,con-branches,"['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['Cb1', 'Cb2', 'Cb3']","[['31225.5'], ['31225.7'], ['31225.13']]"
+31225,31225.3,weakening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]","['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]","['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]","['UnWPb1', 'UnWPb2']","[['31225.9'], ['31225.11']]"
+31225,31225.3,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]"
+31225,31225.3,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]"
+31225,31225.3,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]","['UnWCb1', 'UnWCb2', 'UnWCb3']","[['31225.5'], ['31225.7'], ['31225.13']]"

@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "40006.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "40006.29": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "40006.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "40006.27": {
+      "successor_id": "40006.7",
+      "relation": 1.0
+    },
+    "40006.29": {
+      "successor_id": "40006.7",
+      "relation": -1.0
+    }
+  }
+}

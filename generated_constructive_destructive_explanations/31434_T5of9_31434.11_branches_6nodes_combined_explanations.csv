@@ -1,0 +1,4 @@
+debate_id,t_id,direction,heuristic,constructive_explanation_abv,constructive_explanation_arg,destructive_explanation_abv,destructive_explanation_arg
+31434,31434.11,weakening,weak to strong,"[['UnWPb1', 'UnWPb2'], ['Cb3', 'Cb1']]","[['31434.42', '31434.44'], ['31434.46', '31434.13']]","[['UnWPb1', 'UnWPb2'], [], ['Cb3', 'Cb1']]","[['31434.42', '31434.44'], [], ['31434.46', '31434.13']]"
+31434,31434.11,weakening,strong to weak,"[['UnWPb1', 'UnWPb2'], ['Cb1', 'Cb2']]","[['31434.42', '31434.44'], ['31434.13', '31434.15']]","[['UnWPb1', 'UnWPb2'], [], ['Cb1', 'Cb2']]","[['31434.42', '31434.44'], [], ['31434.13', '31434.15']]"
+31434,31434.11,weakening,small to large,"[['UnWPb1', 'UnWPb2'], ['Cb1', 'Cb2']]","[['31434.42', '31434.44'], ['31434.13', '31434.15']]","[['UnWPb1', 'UnWPb2'], [], ['Cb1', 'Cb2']]","[['31434.42', '31434.44'], [], ['31434.13', '31434.15']]"

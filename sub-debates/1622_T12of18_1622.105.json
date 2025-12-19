@@ -1,0 +1,25 @@
+{
+  "nodes": {
+    "1622.105": {
+      "votes": {
+        "1": 2,
+        "3": 1,
+        "0": 1,
+        "4": 1
+      },
+      "initial_weight": 0.45,
+      "final_weight": 0.36
+    },
+    "1622.119": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "1622.119": {
+      "successor_id": "1622.105",
+      "relation": -1.0
+    }
+  }
+}

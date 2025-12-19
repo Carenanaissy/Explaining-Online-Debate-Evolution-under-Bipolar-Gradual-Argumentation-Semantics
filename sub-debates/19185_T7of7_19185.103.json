@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "19185.103": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "19185.115": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "19185.117": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    }
+  },
+  "edges": {
+    "19185.117": {
+      "successor_id": "19185.103",
+      "relation": 1.0
+    },
+    "19185.115": {
+      "successor_id": "19185.117",
+      "relation": 1.0
+    }
+  }
+}

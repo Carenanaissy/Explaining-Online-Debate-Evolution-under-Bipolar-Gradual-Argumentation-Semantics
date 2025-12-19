@@ -1,0 +1,202 @@
+{
+  "nodes": {
+    "44275.15": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "44275.43": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.49": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.33": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.29": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 0.8
+    },
+    "44275.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.8580550098231827
+    },
+    "44275.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "44275.31": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 0.8
+    },
+    "44275.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "44275.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.47058823529411764
+    },
+    "44275.41": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.19": {
+      "votes": {
+        "0": 1,
+        "1": 1
+      },
+      "initial_weight": 0.125,
+      "final_weight": 0.11764705882352941
+    },
+    "44275.17": {
+      "votes": {
+        "0": 1
+      },
+      "initial_weight": 0.0,
+      "final_weight": 0.0
+    },
+    "44275.47": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.37": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    },
+    "44275.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.45": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    },
+    "44275.35": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "44275.39": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "44275.5": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.7": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.9": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.11": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.13": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.15": {
+      "successor_id": "44275.3",
+      "relation": -1.0
+    },
+    "44275.17": {
+      "successor_id": "44275.3",
+      "relation": -1.0
+    },
+    "44275.19": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.29": {
+      "successor_id": "44275.3",
+      "relation": -1.0
+    },
+    "44275.31": {
+      "successor_id": "44275.3",
+      "relation": 1.0
+    },
+    "44275.27": {
+      "successor_id": "44275.5",
+      "relation": -1.0
+    },
+    "44275.33": {
+      "successor_id": "44275.7",
+      "relation": 1.0
+    },
+    "44275.37": {
+      "successor_id": "44275.11",
+      "relation": -1.0
+    },
+    "44275.45": {
+      "successor_id": "44275.19",
+      "relation": -1.0
+    },
+    "44275.43": {
+      "successor_id": "44275.29",
+      "relation": -1.0
+    },
+    "44275.35": {
+      "successor_id": "44275.31",
+      "relation": -1.0
+    },
+    "44275.39": {
+      "successor_id": "44275.37",
+      "relation": -1.0
+    },
+    "44275.41": {
+      "successor_id": "44275.37",
+      "relation": -1.0
+    },
+    "44275.47": {
+      "successor_id": "44275.45",
+      "relation": -1.0
+    },
+    "44275.49": {
+      "successor_id": "44275.45",
+      "relation": -1.0
+    }
+  }
+}

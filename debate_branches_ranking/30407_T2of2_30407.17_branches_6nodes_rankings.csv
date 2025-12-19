@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+30407,30407.17,strengthening,weak to strong,pro-branches,"['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,strong to weak,pro-branches,"['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,small to large,pro-branches,"['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['Pb1', 'Pb2', 'Pb3', 'Pb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,weak to strong,con-branches,['Cb1'],[['30407.11']],['Cb1'],[['30407.11']]
+30407,30407.17,strengthening,strong to weak,con-branches,['Cb1'],[['30407.11']],['Cb1'],[['30407.11']]
+30407,30407.17,strengthening,small to large,con-branches,['Cb1'],[['30407.11']],['Cb1'],[['30407.11']]
+30407,30407.17,strengthening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]","['UnWPb1', 'UnWPb2', 'UnWPb3', 'UnWPb4']","[['30407.15'], ['30407.25'], ['30407.33'], ['30407.41']]"
+30407,30407.17,strengthening,weak to strong,unweakened con-branches,['UnWCb1'],[['30407.11']],['UnWCb1'],[['30407.11']]
+30407,30407.17,strengthening,strong to weak,unweakened con-branches,['UnWCb1'],[['30407.11']],['UnWCb1'],[['30407.11']]
+30407,30407.17,strengthening,small to large,unweakened con-branches,['UnWCb1'],[['30407.11']],['UnWCb1'],[['30407.11']]

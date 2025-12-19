@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "35129.104": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "35129.63": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "35129.65": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "35129.106": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "35129.108": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "35129.53": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.511002444987775
+    },
+    "35129.136": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "35129.61": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "35129.116": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "35129.67": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "35129.114": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "35129.61": {
+      "successor_id": "35129.53",
+      "relation": -1.0
+    },
+    "35129.63": {
+      "successor_id": "35129.53",
+      "relation": 1.0
+    },
+    "35129.65": {
+      "successor_id": "35129.53",
+      "relation": 1.0
+    },
+    "35129.67": {
+      "successor_id": "35129.53",
+      "relation": -1.0
+    },
+    "35129.106": {
+      "successor_id": "35129.53",
+      "relation": 1.0
+    },
+    "35129.136": {
+      "successor_id": "35129.61",
+      "relation": 1.0
+    },
+    "35129.108": {
+      "successor_id": "35129.63",
+      "relation": 1.0
+    },
+    "35129.104": {
+      "successor_id": "35129.65",
+      "relation": -1.0
+    },
+    "35129.114": {
+      "successor_id": "35129.67",
+      "relation": 1.0
+    },
+    "35129.116": {
+      "successor_id": "35129.67",
+      "relation": 1.0
+    }
+  }
+}

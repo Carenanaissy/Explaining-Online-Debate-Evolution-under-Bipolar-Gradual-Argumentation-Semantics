@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "62436.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "62436.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "62436.39": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "62436.71": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "62436.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "62436.45": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "62436.35": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "62436.69": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "62436.5": {
+      "votes": {
+        "0": 1
+      },
+      "initial_weight": 0.0,
+      "final_weight": 0.23224568138195795
+    },
+    "62436.33": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "62436.41": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "62436.21": {
+      "successor_id": "62436.5",
+      "relation": 1.0
+    },
+    "62436.25": {
+      "successor_id": "62436.5",
+      "relation": -1.0
+    },
+    "62436.33": {
+      "successor_id": "62436.5",
+      "relation": -1.0
+    },
+    "62436.39": {
+      "successor_id": "62436.5",
+      "relation": 1.0
+    },
+    "62436.45": {
+      "successor_id": "62436.5",
+      "relation": 1.0
+    },
+    "62436.31": {
+      "successor_id": "62436.25",
+      "relation": -1.0
+    },
+    "62436.35": {
+      "successor_id": "62436.33",
+      "relation": 1.0
+    },
+    "62436.41": {
+      "successor_id": "62436.33",
+      "relation": 1.0
+    },
+    "62436.69": {
+      "successor_id": "62436.39",
+      "relation": 1.0
+    },
+    "62436.71": {
+      "successor_id": "62436.45",
+      "relation": 1.0
+    }
+  }
+}

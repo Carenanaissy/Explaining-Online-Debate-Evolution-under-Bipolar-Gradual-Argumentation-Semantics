@@ -1,0 +1,200 @@
+{
+  "nodes": {
+    "39053.0": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "39053.17": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "39053.19": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "39053.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "39053.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4913921360255048
+    },
+    "39053.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "39053.37": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.35": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.33": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.29": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.39": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "39053.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "39053.41": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "39053.43": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "39053.3": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.5": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.7": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.9": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.11": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.13": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.15": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.17": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.19": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.21": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.23": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.25": {
+      "successor_id": "39053.0",
+      "relation": 0.0
+    },
+    "39053.37": {
+      "successor_id": "39053.15",
+      "relation": -1.0
+    },
+    "39053.35": {
+      "successor_id": "39053.17",
+      "relation": -1.0
+    },
+    "39053.33": {
+      "successor_id": "39053.19",
+      "relation": -1.0
+    },
+    "39053.31": {
+      "successor_id": "39053.21",
+      "relation": 1.0
+    },
+    "39053.29": {
+      "successor_id": "39053.23",
+      "relation": 1.0
+    },
+    "39053.39": {
+      "successor_id": "39053.23",
+      "relation": -1.0
+    },
+    "39053.27": {
+      "successor_id": "39053.25",
+      "relation": 1.0
+    },
+    "39053.41": {
+      "successor_id": "39053.39",
+      "relation": 1.0
+    },
+    "39053.43": {
+      "successor_id": "39053.41",
+      "relation": 1.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+31434,31434.3,weakening,weak to strong,pro-branches,['Pb1'],[['31434.25']],['Pb1'],[['31434.25']]
+31434,31434.3,weakening,strong to weak,pro-branches,['Pb1'],[['31434.25']],['Pb1'],[['31434.25']]
+31434,31434.3,weakening,small to large,pro-branches,['Pb1'],[['31434.25']],['Pb1'],[['31434.25']]
+31434,31434.3,weakening,weak to strong,con-branches,"['Cb1', 'Cb2', 'Cb3', 'Cb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['Cb3', 'Cb1', 'Cb2', 'Cb4']","[['31434.21'], ['31434.17', '31434.74'], ['31434.19'], ['31434.23']]"
+31434,31434.3,weakening,strong to weak,con-branches,"['Cb1', 'Cb2', 'Cb3', 'Cb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['Cb4', 'Cb2', 'Cb1', 'Cb3']","[['31434.23'], ['31434.19'], ['31434.17', '31434.74'], ['31434.21']]"
+31434,31434.3,weakening,small to large,con-branches,"['Cb1', 'Cb2', 'Cb3', 'Cb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['Cb2', 'Cb3', 'Cb4', 'Cb1']","[['31434.19'], ['31434.21'], ['31434.23'], ['31434.17', '31434.74']]"
+31434,31434.3,weakening,weak to strong,unweakened pro-branches,['UnWPb1'],[['31434.25']],['UnWPb1'],[['31434.25']]
+31434,31434.3,weakening,strong to weak,unweakened pro-branches,['UnWPb1'],[['31434.25']],['UnWPb1'],[['31434.25']]
+31434,31434.3,weakening,small to large,unweakened pro-branches,['UnWPb1'],[['31434.25']],['UnWPb1'],[['31434.25']]
+31434,31434.3,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3', 'UnWCb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['UnWCb3', 'UnWCb1', 'UnWCb2', 'UnWCb4']","[['31434.21'], ['31434.17', '31434.74'], ['31434.19'], ['31434.23']]"
+31434,31434.3,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3', 'UnWCb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['UnWCb4', 'UnWCb2', 'UnWCb1', 'UnWCb3']","[['31434.23'], ['31434.19'], ['31434.17', '31434.74'], ['31434.21']]"
+31434,31434.3,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2', 'UnWCb3', 'UnWCb4']","[['31434.17', '31434.74'], ['31434.19'], ['31434.21'], ['31434.23']]","['UnWCb2', 'UnWCb3', 'UnWCb4', 'UnWCb1']","[['31434.19'], ['31434.21'], ['31434.23'], ['31434.17', '31434.74']]"

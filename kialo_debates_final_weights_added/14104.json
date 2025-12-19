@@ -1,0 +1,209 @@
+{
+  "nodes": {
+    "14104.0": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.1": {
+      "votes": {
+        "4": 2
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "14104.2": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "14104.3": {
+      "votes": {
+        "4": 1,
+        "1": 1
+      },
+      "initial_weight": 0.625,
+      "final_weight": 0.7
+    },
+    "14104.4": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "14104.5": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.2
+    },
+    "14104.6": {
+      "votes": {
+        "0": 1,
+        "4": 2
+      },
+      "initial_weight": 0.6666666666666666,
+      "final_weight": 0.42666666666666664
+    },
+    "14104.8": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "14104.9": {
+      "votes": {
+        "4": 2,
+        "3": 1,
+        "1": 1,
+        "0": 1
+      },
+      "initial_weight": 0.6,
+      "final_weight": 0.48
+    },
+    "14104.14": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    },
+    "14104.17": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "14104.18": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.19": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.12": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.11": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.25
+    },
+    "14104.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.10": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.20": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "14104.45": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "14104.1": {
+      "successor_id": "14104.0",
+      "relation": 0.0
+    },
+    "14104.2": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.3": {
+      "successor_id": "14104.1",
+      "relation": -1.0
+    },
+    "14104.4": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.5": {
+      "successor_id": "14104.1",
+      "relation": -1.0
+    },
+    "14104.6": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.8": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.9": {
+      "successor_id": "14104.1",
+      "relation": -1.0
+    },
+    "14104.14": {
+      "successor_id": "14104.1",
+      "relation": -1.0
+    },
+    "14104.17": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.18": {
+      "successor_id": "14104.1",
+      "relation": 1.0
+    },
+    "14104.19": {
+      "successor_id": "14104.1",
+      "relation": -1.0
+    },
+    "14104.12": {
+      "successor_id": "14104.3",
+      "relation": 1.0
+    },
+    "14104.13": {
+      "successor_id": "14104.5",
+      "relation": -1.0
+    },
+    "14104.11": {
+      "successor_id": "14104.6",
+      "relation": -1.0
+    },
+    "14104.7": {
+      "successor_id": "14104.6",
+      "relation": -1.0
+    },
+    "14104.10": {
+      "successor_id": "14104.9",
+      "relation": -1.0
+    },
+    "14104.20": {
+      "successor_id": "14104.14",
+      "relation": -1.0
+    },
+    "14104.45": {
+      "successor_id": "14104.14",
+      "relation": -1.0
+    }
+  }
+}

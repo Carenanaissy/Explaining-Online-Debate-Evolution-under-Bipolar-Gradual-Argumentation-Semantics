@@ -1,0 +1,16 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+1257,1257.552,strengthening,weak to strong,pro-branches,"['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]","['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,strong to weak,pro-branches,"['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]","['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,small to large,pro-branches,"['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]","['Pb1', 'Pb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,weak to strong,con-branches,['Cb1'],"[['1257.564', '1257.763']]",['Cb1'],"[['1257.564', '1257.763']]"
+1257,1257.552,strengthening,strong to weak,con-branches,['Cb1'],"[['1257.564', '1257.763']]",['Cb1'],"[['1257.564', '1257.763']]"
+1257,1257.552,strengthening,small to large,con-branches,['Cb1'],"[['1257.564', '1257.763']]",['Cb1'],"[['1257.564', '1257.763']]"
+1257,1257.552,strengthening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]","['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]","['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]","['UnWPb1', 'UnWPb2']","[['1257.565'], ['1257.566']]"
+1257,1257.552,strengthening,weak to strong,unweakened con-branches,['UnWCb1'],[['1257.564']],['UnWCb1'],[['1257.564']]
+1257,1257.552,strengthening,strong to weak,unweakened con-branches,['UnWCb1'],[['1257.564']],['UnWCb1'],[['1257.564']]
+1257,1257.552,strengthening,small to large,unweakened con-branches,['UnWCb1'],[['1257.564']],['UnWCb1'],[['1257.564']]
+1257,1257.552,strengthening,weak to strong,con-weakening branches,['CWb1'],[['1257.763']],['CWb1'],[['1257.763']]
+1257,1257.552,strengthening,strong to weak,con-weakening branches,['CWb1'],[['1257.763']],['CWb1'],[['1257.763']]
+1257,1257.552,strengthening,small to large,con-weakening branches,['CWb1'],[['1257.763']],['CWb1'],[['1257.763']]

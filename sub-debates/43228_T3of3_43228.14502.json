@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "43228.14504": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "43228.14502": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.4
+    }
+  },
+  "edges": {
+    "43228.14504": {
+      "successor_id": "43228.14502",
+      "relation": 1.0
+    }
+  }
+}

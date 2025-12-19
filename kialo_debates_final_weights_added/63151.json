@@ -1,0 +1,119 @@
+{
+  "nodes": {
+    "63151.0": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.47167619366883023
+    },
+    "63151.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.504950495049505
+    },
+    "63151.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "63151.17": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "63151.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.19": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "63151.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "63151.3": {
+      "successor_id": "63151.0",
+      "relation": 0.0
+    },
+    "63151.7": {
+      "successor_id": "63151.3",
+      "relation": -1.0
+    },
+    "63151.9": {
+      "successor_id": "63151.3",
+      "relation": 1.0
+    },
+    "63151.13": {
+      "successor_id": "63151.3",
+      "relation": -1.0
+    },
+    "63151.17": {
+      "successor_id": "63151.3",
+      "relation": 1.0
+    },
+    "63151.15": {
+      "successor_id": "63151.7",
+      "relation": -1.0
+    },
+    "63151.23": {
+      "successor_id": "63151.7",
+      "relation": 1.0
+    },
+    "63151.11": {
+      "successor_id": "63151.9",
+      "relation": -1.0
+    },
+    "63151.25": {
+      "successor_id": "63151.9",
+      "relation": 1.0
+    },
+    "63151.19": {
+      "successor_id": "63151.13",
+      "relation": 1.0
+    },
+    "63151.21": {
+      "successor_id": "63151.13",
+      "relation": 1.0
+    },
+    "63151.27": {
+      "successor_id": "63151.11",
+      "relation": -1.0
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "nodes": {
+    "34171.387": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "34171.365": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "34171.423": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "34171.387": {
+      "successor_id": "34171.365",
+      "relation": 1.0
+    },
+    "34171.423": {
+      "successor_id": "34171.365",
+      "relation": 1.0
+    }
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "nodes": {
+    "31674.36": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.56": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.8907801892271086
+    },
+    "31674.16": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.8915401301518439
+    },
+    "31674.40": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.44": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.42": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "31674.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.14": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "31674.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "31674.36": {
+      "successor_id": "31674.56",
+      "relation": 1.0
+    },
+    "31674.7": {
+      "successor_id": "31674.56",
+      "relation": 1.0
+    },
+    "31674.16": {
+      "successor_id": "31674.56",
+      "relation": 1.0
+    },
+    "31674.9": {
+      "successor_id": "31674.7",
+      "relation": 1.0
+    },
+    "31674.11": {
+      "successor_id": "31674.7",
+      "relation": 1.0
+    },
+    "31674.3": {
+      "successor_id": "31674.7",
+      "relation": 1.0
+    },
+    "31674.14": {
+      "successor_id": "31674.7",
+      "relation": 1.0
+    },
+    "31674.40": {
+      "successor_id": "31674.7",
+      "relation": 1.0
+    },
+    "31674.42": {
+      "successor_id": "31674.7",
+      "relation": -1.0
+    },
+    "31674.44": {
+      "successor_id": "31674.42",
+      "relation": 1.0
+    }
+  }
+}

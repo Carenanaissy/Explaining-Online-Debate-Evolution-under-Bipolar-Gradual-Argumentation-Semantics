@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+37719,37719.514,weakening,weak to strong,pro-branches,['Pb1'],"[['37719.518', '37719.520']]",['Pb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,strong to weak,pro-branches,['Pb1'],"[['37719.518', '37719.520']]",['Pb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,small to large,pro-branches,['Pb1'],"[['37719.518', '37719.520']]",['Pb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,weak to strong,con-branches,"['Cb1', 'Cb2']","[['37719.516'], ['37719.522', '37719.524']]","['Cb1', 'Cb2']","[['37719.516'], ['37719.522', '37719.524']]"
+37719,37719.514,weakening,strong to weak,con-branches,"['Cb1', 'Cb2']","[['37719.516'], ['37719.522', '37719.524']]","['Cb2', 'Cb1']","[['37719.522', '37719.524'], ['37719.516']]"
+37719,37719.514,weakening,small to large,con-branches,"['Cb1', 'Cb2']","[['37719.516'], ['37719.522', '37719.524']]","['Cb1', 'Cb2']","[['37719.516'], ['37719.522', '37719.524']]"
+37719,37719.514,weakening,weak to strong,unweakened pro-branches,['UnWPb1'],"[['37719.518', '37719.520']]",['UnWPb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,strong to weak,unweakened pro-branches,['UnWPb1'],"[['37719.518', '37719.520']]",['UnWPb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,small to large,unweakened pro-branches,['UnWPb1'],"[['37719.518', '37719.520']]",['UnWPb1'],"[['37719.518', '37719.520']]"
+37719,37719.514,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['37719.516'], ['37719.522', '37719.524']]","['UnWCb1', 'UnWCb2']","[['37719.516'], ['37719.522', '37719.524']]"
+37719,37719.514,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['37719.516'], ['37719.522', '37719.524']]","['UnWCb2', 'UnWCb1']","[['37719.522', '37719.524'], ['37719.516']]"
+37719,37719.514,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['37719.516'], ['37719.522', '37719.524']]","['UnWCb1', 'UnWCb2']","[['37719.516'], ['37719.522', '37719.524']]"

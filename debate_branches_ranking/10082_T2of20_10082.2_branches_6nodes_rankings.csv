@@ -1,0 +1,10 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+10082,10082.2,strengthening,weak to strong,pro-branches,"['Pb1', 'Pb2']","[['10082.29', '10082.52', '10082.53', '10082.30'], ['10082.51']]","['Pb1', 'Pb2']","[['10082.29', '10082.52', '10082.53', '10082.30'], ['10082.51']]"
+10082,10082.2,strengthening,strong to weak,pro-branches,"['Pb1', 'Pb2']","[['10082.29', '10082.52', '10082.53', '10082.30'], ['10082.51']]","['Pb2', 'Pb1']","[['10082.51'], ['10082.29', '10082.52', '10082.53', '10082.30']]"
+10082,10082.2,strengthening,small to large,pro-branches,"['Pb1', 'Pb2']","[['10082.29', '10082.52', '10082.53', '10082.30'], ['10082.51']]","['Pb2', 'Pb1']","[['10082.51'], ['10082.29', '10082.52', '10082.53', '10082.30']]"
+10082,10082.2,strengthening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['10082.29', '10082.52', '10082.30'], ['10082.51']]","['UnWPb1', 'UnWPb2']","[['10082.29', '10082.52', '10082.30'], ['10082.51']]"
+10082,10082.2,strengthening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['10082.29', '10082.52', '10082.30'], ['10082.51']]","['UnWPb2', 'UnWPb1']","[['10082.51'], ['10082.29', '10082.52', '10082.30']]"
+10082,10082.2,strengthening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['10082.29', '10082.52', '10082.30'], ['10082.51']]","['UnWPb2', 'UnWPb1']","[['10082.51'], ['10082.29', '10082.52', '10082.30']]"
+10082,10082.2,strengthening,weak to strong,pro-weakening branches,['PWb1'],[['10082.53']],['PWb1'],[['10082.53']]
+10082,10082.2,strengthening,strong to weak,pro-weakening branches,['PWb1'],[['10082.53']],['PWb1'],[['10082.53']]
+10082,10082.2,strengthening,small to large,pro-weakening branches,['PWb1'],[['10082.53']],['PWb1'],[['10082.53']]

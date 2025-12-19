@@ -1,0 +1,193 @@
+{
+  "nodes": {
+    "52062.278": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.7": {
+      "votes": {
+        "2": 2
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.6233991378054713
+    },
+    "52062.227": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "52062.109": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.245": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.271": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "52062.236": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.274": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.111": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.231": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.117": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "52062.276": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "52062.233": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.49504950495049505
+    },
+    "52062.280": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.105": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.7097242380261248
+    },
+    "52062.113": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "52062.215": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.119": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.115": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "52062.238": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "52062.27": {
+      "successor_id": "52062.7",
+      "relation": 1.0
+    },
+    "52062.105": {
+      "successor_id": "52062.7",
+      "relation": 1.0
+    },
+    "52062.215": {
+      "successor_id": "52062.7",
+      "relation": -1.0
+    },
+    "52062.233": {
+      "successor_id": "52062.7",
+      "relation": 1.0
+    },
+    "52062.271": {
+      "successor_id": "52062.7",
+      "relation": -1.0
+    },
+    "52062.238": {
+      "successor_id": "52062.27",
+      "relation": 1.0
+    },
+    "52062.245": {
+      "successor_id": "52062.27",
+      "relation": -1.0
+    },
+    "52062.113": {
+      "successor_id": "52062.105",
+      "relation": 1.0
+    },
+    "52062.227": {
+      "successor_id": "52062.105",
+      "relation": 1.0
+    },
+    "52062.280": {
+      "successor_id": "52062.105",
+      "relation": -1.0
+    },
+    "52062.117": {
+      "successor_id": "52062.233",
+      "relation": 1.0
+    },
+    "52062.236": {
+      "successor_id": "52062.233",
+      "relation": -1.0
+    },
+    "52062.119": {
+      "successor_id": "52062.271",
+      "relation": 1.0
+    },
+    "52062.274": {
+      "successor_id": "52062.271",
+      "relation": 1.0
+    },
+    "52062.276": {
+      "successor_id": "52062.271",
+      "relation": -1.0
+    },
+    "52062.115": {
+      "successor_id": "52062.113",
+      "relation": 1.0
+    },
+    "52062.111": {
+      "successor_id": "52062.227",
+      "relation": 1.0
+    },
+    "52062.109": {
+      "successor_id": "52062.227",
+      "relation": 1.0
+    },
+    "52062.231": {
+      "successor_id": "52062.117",
+      "relation": -1.0
+    },
+    "52062.278": {
+      "successor_id": "52062.276",
+      "relation": -1.0
+    }
+  }
+}

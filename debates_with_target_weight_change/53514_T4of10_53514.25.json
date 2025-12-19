@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "53514.132": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "53514.136": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.134": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.150": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.152": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.154": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.128": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "53514.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.47058823529411764
+    },
+    "53514.130": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "53514.76": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "53514.189": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "53514.76": {
+      "successor_id": "53514.25",
+      "relation": 1.0
+    },
+    "53514.128": {
+      "successor_id": "53514.25",
+      "relation": 1.0
+    },
+    "53514.130": {
+      "successor_id": "53514.25",
+      "relation": -1.0
+    },
+    "53514.132": {
+      "successor_id": "53514.25",
+      "relation": -1.0
+    },
+    "53514.154": {
+      "successor_id": "53514.128",
+      "relation": 1.0
+    },
+    "53514.152": {
+      "successor_id": "53514.130",
+      "relation": 1.0
+    },
+    "53514.134": {
+      "successor_id": "53514.132",
+      "relation": 1.0
+    },
+    "53514.136": {
+      "successor_id": "53514.132",
+      "relation": 1.0
+    },
+    "53514.150": {
+      "successor_id": "53514.134",
+      "relation": 1.0
+    },
+    "53514.189": {
+      "successor_id": "53514.134",
+      "relation": -1.0
+    }
+  }
+}

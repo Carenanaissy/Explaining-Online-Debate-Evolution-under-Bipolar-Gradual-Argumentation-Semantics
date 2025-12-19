@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+14768,14768.467,weakening,weak to strong,pro-branches,['Pb1'],[['14768.471']],['Pb1'],[['14768.471']]
+14768,14768.467,weakening,strong to weak,pro-branches,['Pb1'],[['14768.471']],['Pb1'],[['14768.471']]
+14768,14768.467,weakening,small to large,pro-branches,['Pb1'],[['14768.471']],['Pb1'],[['14768.471']]
+14768,14768.467,weakening,weak to strong,con-branches,"['Cb1', 'Cb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['Cb2', 'Cb1']","[['14768.473', '14768.477', '14768.475'], ['14768.469']]"
+14768,14768.467,weakening,strong to weak,con-branches,"['Cb1', 'Cb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['Cb1', 'Cb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]"
+14768,14768.467,weakening,small to large,con-branches,"['Cb1', 'Cb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['Cb1', 'Cb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]"
+14768,14768.467,weakening,weak to strong,unweakened pro-branches,['UnWPb1'],[['14768.471']],['UnWPb1'],[['14768.471']]
+14768,14768.467,weakening,strong to weak,unweakened pro-branches,['UnWPb1'],[['14768.471']],['UnWPb1'],[['14768.471']]
+14768,14768.467,weakening,small to large,unweakened pro-branches,['UnWPb1'],[['14768.471']],['UnWPb1'],[['14768.471']]
+14768,14768.467,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['UnWCb2', 'UnWCb1']","[['14768.473', '14768.477', '14768.475'], ['14768.469']]"
+14768,14768.467,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['UnWCb1', 'UnWCb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]"
+14768,14768.467,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]","['UnWCb1', 'UnWCb2']","[['14768.469'], ['14768.473', '14768.477', '14768.475']]"

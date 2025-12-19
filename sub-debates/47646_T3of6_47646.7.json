@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "47646.33": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "47646.69": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "47646.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5689655172413793
+    },
+    "47646.78": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6323529411764706
+    },
+    "47646.67": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "47646.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.7953475154313598
+    },
+    "47646.53": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "47646.71": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "47646.57": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "47646.80": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "47646.82": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "47646.31": {
+      "successor_id": "47646.7",
+      "relation": 1.0
+    },
+    "47646.78": {
+      "successor_id": "47646.7",
+      "relation": 1.0
+    },
+    "47646.33": {
+      "successor_id": "47646.31",
+      "relation": 1.0
+    },
+    "47646.67": {
+      "successor_id": "47646.31",
+      "relation": 1.0
+    },
+    "47646.53": {
+      "successor_id": "47646.31",
+      "relation": -1.0
+    },
+    "47646.80": {
+      "successor_id": "47646.78",
+      "relation": 1.0
+    },
+    "47646.69": {
+      "successor_id": "47646.67",
+      "relation": -1.0
+    },
+    "47646.71": {
+      "successor_id": "47646.67",
+      "relation": 1.0
+    },
+    "47646.57": {
+      "successor_id": "47646.53",
+      "relation": 1.0
+    },
+    "47646.82": {
+      "successor_id": "47646.80",
+      "relation": 1.0
+    }
+  }
+}

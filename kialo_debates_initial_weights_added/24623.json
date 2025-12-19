@@ -1,0 +1,108 @@
+{
+  "nodes": {
+    "24623.0": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.1": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25
+    },
+    "24623.2": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.6": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.7": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.8": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.13": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.16": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.5": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.12": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.11": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.19": {
+      "votes": {},
+      "initial_weight": 0.5
+    },
+    "24623.10": {
+      "votes": {},
+      "initial_weight": 0.5
+    }
+  },
+  "edges": {
+    "24623.1": {
+      "successor_id": "24623.0",
+      "relation": 0.0
+    },
+    "24623.2": {
+      "successor_id": "24623.1",
+      "relation": 1.0
+    },
+    "24623.6": {
+      "successor_id": "24623.1",
+      "relation": 1.0
+    },
+    "24623.7": {
+      "successor_id": "24623.1",
+      "relation": -1.0
+    },
+    "24623.8": {
+      "successor_id": "24623.1",
+      "relation": -1.0
+    },
+    "24623.13": {
+      "successor_id": "24623.1",
+      "relation": -1.0
+    },
+    "24623.16": {
+      "successor_id": "24623.1",
+      "relation": 1.0
+    },
+    "24623.5": {
+      "successor_id": "24623.2",
+      "relation": 1.0
+    },
+    "24623.12": {
+      "successor_id": "24623.6",
+      "relation": -1.0
+    },
+    "24623.11": {
+      "successor_id": "24623.16",
+      "relation": -1.0
+    },
+    "24623.19": {
+      "successor_id": "24623.16",
+      "relation": 1.0
+    },
+    "24623.10": {
+      "successor_id": "24623.5",
+      "relation": -1.0
+    }
+  }
+}

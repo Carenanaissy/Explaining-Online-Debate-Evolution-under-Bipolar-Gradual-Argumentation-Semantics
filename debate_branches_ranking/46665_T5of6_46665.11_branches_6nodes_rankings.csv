@@ -1,0 +1,16 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+46665,46665.11,weakening,weak to strong,pro-branches,['Pb1'],[['46665.13']],['Pb1'],[['46665.13']]
+46665,46665.11,weakening,strong to weak,pro-branches,['Pb1'],[['46665.13']],['Pb1'],[['46665.13']]
+46665,46665.11,weakening,small to large,pro-branches,['Pb1'],[['46665.13']],['Pb1'],[['46665.13']]
+46665,46665.11,weakening,weak to strong,con-branches,"['Cb1', 'Cb2']","[['46665.22', '46665.55', '46665.53'], ['46665.49']]","['Cb1', 'Cb2']","[['46665.22', '46665.55', '46665.53'], ['46665.49']]"
+46665,46665.11,weakening,strong to weak,con-branches,"['Cb1', 'Cb2']","[['46665.22', '46665.55', '46665.53'], ['46665.49']]","['Cb2', 'Cb1']","[['46665.49'], ['46665.22', '46665.55', '46665.53']]"
+46665,46665.11,weakening,small to large,con-branches,"['Cb1', 'Cb2']","[['46665.22', '46665.55', '46665.53'], ['46665.49']]","['Cb2', 'Cb1']","[['46665.49'], ['46665.22', '46665.55', '46665.53']]"
+46665,46665.11,weakening,weak to strong,unweakened pro-branches,['UnWPb1'],[['46665.13']],['UnWPb1'],[['46665.13']]
+46665,46665.11,weakening,strong to weak,unweakened pro-branches,['UnWPb1'],[['46665.13']],['UnWPb1'],[['46665.13']]
+46665,46665.11,weakening,small to large,unweakened pro-branches,['UnWPb1'],[['46665.13']],['UnWPb1'],[['46665.13']]
+46665,46665.11,weakening,weak to strong,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['46665.22'], ['46665.49']]","['UnWCb1', 'UnWCb2']","[['46665.22'], ['46665.49']]"
+46665,46665.11,weakening,strong to weak,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['46665.22'], ['46665.49']]","['UnWCb2', 'UnWCb1']","[['46665.49'], ['46665.22']]"
+46665,46665.11,weakening,small to large,unweakened con-branches,"['UnWCb1', 'UnWCb2']","[['46665.22'], ['46665.49']]","['UnWCb1', 'UnWCb2']","[['46665.22'], ['46665.49']]"
+46665,46665.11,weakening,weak to strong,con-weakening branches,"['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]","['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]"
+46665,46665.11,weakening,strong to weak,con-weakening branches,"['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]","['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]"
+46665,46665.11,weakening,small to large,con-weakening branches,"['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]","['CWb1', 'CWb2']","[['46665.53'], ['46665.55']]"

@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+33111,33111.7,strengthening,weak to strong,pro-branches,"['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,strong to weak,pro-branches,"['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,small to large,pro-branches,"['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['Pb1', 'Pb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,weak to strong,con-branches,['Cb1'],"[['33111.45', '33111.49', '33111.47']]",['Cb1'],"[['33111.45', '33111.49', '33111.47']]"
+33111,33111.7,strengthening,strong to weak,con-branches,['Cb1'],"[['33111.45', '33111.49', '33111.47']]",['Cb1'],"[['33111.45', '33111.49', '33111.47']]"
+33111,33111.7,strengthening,small to large,con-branches,['Cb1'],"[['33111.45', '33111.49', '33111.47']]",['Cb1'],"[['33111.45', '33111.49', '33111.47']]"
+33111,33111.7,strengthening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]","['UnWPb1', 'UnWPb2']","[['33111.29', '33111.37'], ['33111.31', '33111.33']]"
+33111,33111.7,strengthening,weak to strong,unweakened con-branches,['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]",['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]"
+33111,33111.7,strengthening,strong to weak,unweakened con-branches,['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]",['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]"
+33111,33111.7,strengthening,small to large,unweakened con-branches,['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]",['UnWCb1'],"[['33111.45', '33111.49', '33111.47']]"

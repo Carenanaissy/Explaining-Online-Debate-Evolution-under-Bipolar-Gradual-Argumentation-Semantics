@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "34171.385": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "34171.361": {
+      "votes": {
+        "3": 2
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.6
+    }
+  },
+  "edges": {
+    "34171.385": {
+      "successor_id": "34171.361",
+      "relation": -1.0
+    }
+  }
+}

@@ -1,0 +1,320 @@
+{
+  "nodes": {
+    "18730.0": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.1": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.20595340856076644
+    },
+    "18730.2": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.84
+    },
+    "18730.4": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.30487804878048774
+    },
+    "18730.6": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.8
+    },
+    "18730.8": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.32
+    },
+    "18730.9": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "18730.19": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "18730.20": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.75
+    },
+    "18730.3": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "18730.15": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.25
+    },
+    "18730.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.5": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 0.8
+    },
+    "18730.7": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.32": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.33": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.14": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.75
+    },
+    "18730.10": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.2
+    },
+    "18730.11": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.7524752475247525
+    },
+    "18730.30": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.28": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.29": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.26": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.27": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.16": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.17": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.18": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "18730.34": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "18730.24": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "18730.1": {
+      "successor_id": "18730.0",
+      "relation": 0.0
+    },
+    "18730.2": {
+      "successor_id": "18730.1",
+      "relation": 1.0
+    },
+    "18730.4": {
+      "successor_id": "18730.1",
+      "relation": -1.0
+    },
+    "18730.6": {
+      "successor_id": "18730.1",
+      "relation": -1.0
+    },
+    "18730.8": {
+      "successor_id": "18730.1",
+      "relation": 1.0
+    },
+    "18730.9": {
+      "successor_id": "18730.1",
+      "relation": -1.0
+    },
+    "18730.19": {
+      "successor_id": "18730.1",
+      "relation": -1.0
+    },
+    "18730.20": {
+      "successor_id": "18730.1",
+      "relation": 1.0
+    },
+    "18730.3": {
+      "successor_id": "18730.2",
+      "relation": 1.0
+    },
+    "18730.15": {
+      "successor_id": "18730.2",
+      "relation": 1.0
+    },
+    "18730.25": {
+      "successor_id": "18730.2",
+      "relation": -1.0
+    },
+    "18730.5": {
+      "successor_id": "18730.4",
+      "relation": -1.0
+    },
+    "18730.7": {
+      "successor_id": "18730.6",
+      "relation": 1.0
+    },
+    "18730.32": {
+      "successor_id": "18730.6",
+      "relation": -1.0
+    },
+    "18730.33": {
+      "successor_id": "18730.6",
+      "relation": 1.0
+    },
+    "18730.14": {
+      "successor_id": "18730.8",
+      "relation": -1.0
+    },
+    "18730.10": {
+      "successor_id": "18730.9",
+      "relation": -1.0
+    },
+    "18730.11": {
+      "successor_id": "18730.9",
+      "relation": 1.0
+    },
+    "18730.30": {
+      "successor_id": "18730.9",
+      "relation": 1.0
+    },
+    "18730.31": {
+      "successor_id": "18730.9",
+      "relation": -1.0
+    },
+    "18730.28": {
+      "successor_id": "18730.19",
+      "relation": 1.0
+    },
+    "18730.29": {
+      "successor_id": "18730.19",
+      "relation": 1.0
+    },
+    "18730.26": {
+      "successor_id": "18730.20",
+      "relation": 1.0
+    },
+    "18730.27": {
+      "successor_id": "18730.20",
+      "relation": -1.0
+    },
+    "18730.16": {
+      "successor_id": "18730.15",
+      "relation": -1.0
+    },
+    "18730.17": {
+      "successor_id": "18730.15",
+      "relation": -1.0
+    },
+    "18730.13": {
+      "successor_id": "18730.5",
+      "relation": -1.0
+    },
+    "18730.23": {
+      "successor_id": "18730.10",
+      "relation": -1.0
+    },
+    "18730.18": {
+      "successor_id": "18730.11",
+      "relation": -1.0
+    },
+    "18730.34": {
+      "successor_id": "18730.11",
+      "relation": 1.0
+    },
+    "18730.24": {
+      "successor_id": "18730.18",
+      "relation": -1.0
+    }
+  }
+}

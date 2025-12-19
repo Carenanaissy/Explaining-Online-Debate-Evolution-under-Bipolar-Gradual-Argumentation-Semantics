@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "58951.45": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "58951.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.29": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4884393063583815
+    },
+    "58951.113": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "58951.93": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.31": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.91": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.17": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "58951.95": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.8461538461538461
+    },
+    "58951.55": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "58951.45": {
+      "successor_id": "58951.5",
+      "relation": -1.0
+    },
+    "58951.95": {
+      "successor_id": "58951.5",
+      "relation": 1.0
+    },
+    "58951.113": {
+      "successor_id": "58951.5",
+      "relation": -1.0
+    },
+    "58951.17": {
+      "successor_id": "58951.45",
+      "relation": 1.0
+    },
+    "58951.93": {
+      "successor_id": "58951.95",
+      "relation": 1.0
+    },
+    "58951.91": {
+      "successor_id": "58951.95",
+      "relation": 1.0
+    },
+    "58951.21": {
+      "successor_id": "58951.95",
+      "relation": 1.0
+    },
+    "58951.55": {
+      "successor_id": "58951.113",
+      "relation": 1.0
+    },
+    "58951.31": {
+      "successor_id": "58951.113",
+      "relation": -1.0
+    },
+    "58951.29": {
+      "successor_id": "58951.113",
+      "relation": -1.0
+    }
+  }
+}

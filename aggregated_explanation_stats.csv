@@ -1,0 +1,13 @@
+explanation_type,ranking,metric,num_debates,mean,median,std_dev,bin_0_10,bin_10_20,bin_20_30,bin_30_40,bin_40_50,bin_50_60,bin_60_70,bin_70_80,bin_80_90,bin_90_100
+constructive,small to large,pct_args_of_graph,4326,69.68,72.97,25.75,52,146,205,248,293,467,593,483,603,1236
+constructive,strong to weak,pct_args_of_graph,4326,72.84,75.00,22.33,16,59,129,185,283,474,660,601,685,1234
+constructive,weak to strong,pct_args_of_graph,4326,75.69,80.00,22.24,22,50,125,145,204,402,606,586,728,1458
+destructive,small to large,pct_args_of_graph,4326,76.90,81.82,24.92,41,78,122,165,257,393,509,455,416,1890
+destructive,strong to weak,pct_args_of_graph,4326,80.72,85.71,20.84,15,31,74,97,181,296,459,535,742,1896
+destructive,weak to strong,pct_args_of_graph,4326,83.58,93.55,21.28,19,36,78,87,151,242,401,396,554,2362
+constructive,small to large,pct_branches_returned,4326,59.60,57.14,30.20,106,329,435,415,334,605,463,251,245,1143
+constructive,strong to weak,pct_branches_returned,4326,54.24,50.00,30.10,149,434,520,488,330,660,416,214,216,899
+constructive,weak to strong,pct_branches_returned,4326,61.31,60.00,29.54,90,274,393,410,329,626,496,260,273,1175
+destructive,small to large,pct_branches_returned,4326,73.95,75.00,27.12,11,76,231,272,129,622,547,305,233,1900
+destructive,strong to weak,pct_branches_returned,4326,67.99,66.67,28.21,12,120,302,390,163,778,560,273,186,1542
+destructive,weak to strong,pct_branches_returned,4326,78.11,87.50,25.60,8,51,176,202,95,531,520,300,288,2155

@@ -1,0 +1,38 @@
+{
+  "nodes": {
+    "54627.51": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "54627.87": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "54627.85": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "54627.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.49504950495049505
+    }
+  },
+  "edges": {
+    "54627.51": {
+      "successor_id": "54627.15",
+      "relation": -1.0
+    },
+    "54627.85": {
+      "successor_id": "54627.15",
+      "relation": 1.0
+    },
+    "54627.87": {
+      "successor_id": "54627.85",
+      "relation": -1.0
+    }
+  }
+}

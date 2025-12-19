@@ -1,0 +1,22 @@
+{
+  "nodes": {
+    "48142.224": {
+      "votes": {
+        "2": 1
+      },
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "48142.434": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "48142.434": {
+      "successor_id": "48142.224",
+      "relation": 1.0
+    }
+  }
+}

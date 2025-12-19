@@ -1,0 +1,20 @@
+{
+  "nodes": {
+    "51402.41": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "51402.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    }
+  },
+  "edges": {
+    "51402.41": {
+      "successor_id": "51402.9",
+      "relation": -1.0
+    }
+  }
+}

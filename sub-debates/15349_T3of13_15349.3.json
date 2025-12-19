@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "15349.46": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.10": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.36764705882352944
+    },
+    "15349.72": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.74": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.16": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5020009430364493
+    },
+    "15349.60": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.43103448275862066
+    },
+    "15349.65": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "15349.73": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "15349.66": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    }
+  },
+  "edges": {
+    "15349.10": {
+      "successor_id": "15349.3",
+      "relation": 1.0
+    },
+    "15349.15": {
+      "successor_id": "15349.3",
+      "relation": -1.0
+    },
+    "15349.60": {
+      "successor_id": "15349.3",
+      "relation": 1.0
+    },
+    "15349.65": {
+      "successor_id": "15349.3",
+      "relation": -1.0
+    },
+    "15349.16": {
+      "successor_id": "15349.15",
+      "relation": -1.0
+    },
+    "15349.46": {
+      "successor_id": "15349.15",
+      "relation": -1.0
+    },
+    "15349.66": {
+      "successor_id": "15349.15",
+      "relation": 1.0
+    },
+    "15349.73": {
+      "successor_id": "15349.60",
+      "relation": -1.0
+    },
+    "15349.72": {
+      "successor_id": "15349.66",
+      "relation": -1.0
+    },
+    "15349.74": {
+      "successor_id": "15349.73",
+      "relation": -1.0
+    }
+  }
+}

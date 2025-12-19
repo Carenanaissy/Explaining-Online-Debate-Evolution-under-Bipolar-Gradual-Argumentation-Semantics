@@ -1,0 +1,107 @@
+{
+  "nodes": {
+    "9841.0": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.1": {
+      "votes": {
+        "1": 1
+      },
+      "initial_weight": 0.25,
+      "final_weight": 0.14513788098693758
+    },
+    "9841.2": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "9841.4": {
+      "votes": {
+        "3": 1
+      },
+      "initial_weight": 0.75,
+      "final_weight": 0.75
+    },
+    "9841.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.6": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.7": {
+      "votes": {
+        "4": 1
+      },
+      "initial_weight": 1.0,
+      "final_weight": 1.0
+    },
+    "9841.8": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "9841.25": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    }
+  },
+  "edges": {
+    "9841.1": {
+      "successor_id": "9841.0",
+      "relation": 0.0
+    },
+    "9841.2": {
+      "successor_id": "9841.1",
+      "relation": 1.0
+    },
+    "9841.3": {
+      "successor_id": "9841.1",
+      "relation": -1.0
+    },
+    "9841.4": {
+      "successor_id": "9841.1",
+      "relation": -1.0
+    },
+    "9841.5": {
+      "successor_id": "9841.1",
+      "relation": 1.0
+    },
+    "9841.6": {
+      "successor_id": "9841.1",
+      "relation": 1.0
+    },
+    "9841.7": {
+      "successor_id": "9841.1",
+      "relation": -1.0
+    },
+    "9841.8": {
+      "successor_id": "9841.1",
+      "relation": 1.0
+    },
+    "9841.9": {
+      "successor_id": "9841.1",
+      "relation": -1.0
+    },
+    "9841.25": {
+      "successor_id": "9841.3",
+      "relation": 1.0
+    }
+  }
+}

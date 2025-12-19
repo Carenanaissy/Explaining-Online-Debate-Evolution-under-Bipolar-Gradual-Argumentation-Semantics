@@ -1,0 +1,13 @@
+debate_id,t_id,direction,heuristic,category,branches_abv,branches,ranking_abv,ranking
+52094,52094.126,strengthening,weak to strong,pro-branches,"['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,strong to weak,pro-branches,"['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,small to large,pro-branches,"['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['Pb1', 'Pb2', 'Pb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,weak to strong,con-branches,['Cb1'],"[['52094.192', '52094.194']]",['Cb1'],"[['52094.192', '52094.194']]"
+52094,52094.126,strengthening,strong to weak,con-branches,['Cb1'],"[['52094.192', '52094.194']]",['Cb1'],"[['52094.192', '52094.194']]"
+52094,52094.126,strengthening,small to large,con-branches,['Cb1'],"[['52094.192', '52094.194']]",['Cb1'],"[['52094.192', '52094.194']]"
+52094,52094.126,strengthening,weak to strong,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,strong to weak,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,small to large,unweakened pro-branches,"['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]","['UnWPb1', 'UnWPb2', 'UnWPb3']","[['52094.128'], ['52094.170'], ['52094.178']]"
+52094,52094.126,strengthening,weak to strong,unweakened con-branches,['UnWCb1'],"[['52094.192', '52094.194']]",['UnWCb1'],"[['52094.192', '52094.194']]"
+52094,52094.126,strengthening,strong to weak,unweakened con-branches,['UnWCb1'],"[['52094.192', '52094.194']]",['UnWCb1'],"[['52094.192', '52094.194']]"
+52094,52094.126,strengthening,small to large,unweakened con-branches,['UnWCb1'],"[['52094.192', '52094.194']]",['UnWCb1'],"[['52094.192', '52094.194']]"

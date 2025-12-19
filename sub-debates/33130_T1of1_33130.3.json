@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "33130.15": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5689655172413793
+    },
+    "33130.17": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    },
+    "33130.7": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.39": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.3": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4976331360946745
+    },
+    "33130.19": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.13": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.9": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "33130.11": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "33130.5": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.4
+    }
+  },
+  "edges": {
+    "33130.5": {
+      "successor_id": "33130.3",
+      "relation": 1.0
+    },
+    "33130.7": {
+      "successor_id": "33130.3",
+      "relation": 1.0
+    },
+    "33130.9": {
+      "successor_id": "33130.3",
+      "relation": 1.0
+    },
+    "33130.11": {
+      "successor_id": "33130.3",
+      "relation": -1.0
+    },
+    "33130.13": {
+      "successor_id": "33130.3",
+      "relation": -1.0
+    },
+    "33130.15": {
+      "successor_id": "33130.3",
+      "relation": -1.0
+    },
+    "33130.39": {
+      "successor_id": "33130.5",
+      "relation": -1.0
+    },
+    "33130.21": {
+      "successor_id": "33130.9",
+      "relation": 1.0
+    },
+    "33130.17": {
+      "successor_id": "33130.15",
+      "relation": 1.0
+    },
+    "33130.19": {
+      "successor_id": "33130.17",
+      "relation": -1.0
+    }
+  }
+}

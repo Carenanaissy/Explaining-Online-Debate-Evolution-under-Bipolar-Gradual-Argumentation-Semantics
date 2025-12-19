@@ -1,0 +1,101 @@
+{
+  "nodes": {
+    "57240.67": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.45": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.55": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.49": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.47": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.21": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.16116035455278
+    },
+    "57240.57": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.53": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.75
+    },
+    "57240.23": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.5
+    },
+    "57240.65": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    },
+    "57240.43": {
+      "votes": {},
+      "initial_weight": 0.5,
+      "final_weight": 0.6
+    }
+  },
+  "edges": {
+    "57240.23": {
+      "successor_id": "57240.21",
+      "relation": 1.0
+    },
+    "57240.43": {
+      "successor_id": "57240.21",
+      "relation": -1.0
+    },
+    "57240.53": {
+      "successor_id": "57240.21",
+      "relation": -1.0
+    },
+    "57240.65": {
+      "successor_id": "57240.21",
+      "relation": -1.0
+    },
+    "57240.45": {
+      "successor_id": "57240.43",
+      "relation": 1.0
+    },
+    "57240.55": {
+      "successor_id": "57240.53",
+      "relation": 1.0
+    },
+    "57240.57": {
+      "successor_id": "57240.53",
+      "relation": 1.0
+    },
+    "57240.67": {
+      "successor_id": "57240.65",
+      "relation": 1.0
+    },
+    "57240.47": {
+      "successor_id": "57240.45",
+      "relation": -1.0
+    },
+    "57240.49": {
+      "successor_id": "57240.45",
+      "relation": 1.0
+    }
+  }
+}
