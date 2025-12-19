@@ -143,7 +143,7 @@ Votes are represented as aggregated counts by score level:
 - **Weakening Cases**: 1,797 debates (41.5%) where target arguments were weakened
 - **File Format**: JSON with consistent schema
 
-### Explanation size with respect to the Number of Branches
+## Explanation size with respect to the Number of Branches
 
 We define the size of a returned explanation w.r.t. the number of branches.  
 - For **constructive explanations**: the number of returned pro-branches and con-weakening sub-branches for the strengthening case, and the number of returned con-branches and pro-weakening sub-branches for the weakening case.  
@@ -160,7 +160,7 @@ The percentage of branches returned by an explanation is computed relative to th
 | Destructive   | H_{w → s}          | 78.11 | 87.5   | 25.6    |
 | Destructive   | H_{s → l}          | 73.95 | 75     | 27.12   |
 
-Table shows the mean, median, and standard deviation values computed for this percentage across the 4326 debates' explanations for each explanation-heuristic combination.
+This table shows the mean, median, and standard deviation values computed for this percentage across the 4326 debates' explanations for each explanation-heuristic combination.
 
 While generating constructive explanations following `H_{s → l}` gives the shortest explanations w.r.t. the number of arguments, using `H_{s → w}` gives the shortest explanations w.r.t. the number of branches, highlighting a trade-off between these two objectives.
 
